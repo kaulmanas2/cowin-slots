@@ -57,4 +57,4 @@ if __name__ == "__main__":
     slot = CowinSlots()
     while True:
         slot.getSlotsDetails()
-        time.sleep(3)
+        time.sleep(15)
