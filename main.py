@@ -29,6 +29,7 @@ class CowinSlots:
 
         try:
             response = requests.get(url, headers=headers)
+            print(response)
             self.getDataFromJSON(response.json())
         except:
             print("error")
